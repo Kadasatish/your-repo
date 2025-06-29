@@ -1,19 +1,23 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Camera Toggle</title>
-  <link rel="stylesheet" href="../src/style.css" />
+  <title>Camera Toggle Sync</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="container">
-    <button id="toggleBtn">Turn Camera ON</button>
-    <video id="camera" autoplay playsinline></video>
+  <h1>Camera Toggle App</h1>
+
+  <div id="control-container">
+    <div id="status-dot"></div>
+    <label class="switch">
+      <input type="checkbox" id="toggle-btn" />
+      <span class="slider"></span>
+    </label>
   </div>
 
-  <!-- Socket.IO client -->
   <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
-  <script src="../src/main.js"></script>
+  <script src="main.js"></script>
 </body>
-    </html>
+</html>
