@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/socket.io/:match*",
+      "destination": "https://your-render-backend.onrender.com/socket.io/:match*"
+    }
+  ]
+}
