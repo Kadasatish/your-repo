@@ -1,4 +1,4 @@
-const socket = io("https://your-render-backend.onrender.com"); // update this URL
+const socket = io("https://your-repo-ds9a.onrender.com"); // update this URL
 
 const toggleBtn = document.getElementById("toggleBtn");
 const video = document.getElementById("camera");
