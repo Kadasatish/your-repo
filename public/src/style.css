@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+button {
+  font-size: 1.5rem;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  background: #444;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+video {
+  width: 80%;
+  max-width: 400px;
+  display: none;
+}
